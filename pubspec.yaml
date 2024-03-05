@@ -1,0 +1,30 @@
+name: dio_retrofit_poc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  dio: ^5.4.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.10
+  json_annotation: ^4.8.1
+  retrofit: ^4.1.0
+  retrofit_generator: ^8.1.0
+  riverpod_annotation: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.11
+  custom_lint: ^0.6.2
+  riverpod_lint: ^2.3.9
+
+flutter:
+  uses-material-design: true
